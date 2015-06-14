@@ -5,8 +5,7 @@
 
 technical setup: Kinect2 > vvvv > Arduino > addressable LED strips
 
-vvvv: 45beta33.7_x64
-addons: 45beta33.7_01
+vvvv 45beta33.7_x64 with addons 45beta33.7_01
 
 contact art {at} vulkai {dot} com
 
