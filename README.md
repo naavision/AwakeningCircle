@@ -1,6 +1,7 @@
 # AwakeningCircle
 
 { interactive visionary installation } produced by [vulkai studio](http://www.vulkai.com) for [O.Z.O.R.A. festival](http://www.ozorafestival.eu)
+* repository will be updated as the project develops
 
 #### hardware
 * Kinect2
@@ -13,5 +14,3 @@
 
 #### contact
 art {at} vulkai {dot} com
-
-*repository will be updated as the project develops
