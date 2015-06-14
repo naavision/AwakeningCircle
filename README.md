@@ -8,6 +8,10 @@ www.vulkai.com
 
 www.ozorafestival.eu
 
-Technical setup: Kinect2 > vvvv > Arduino > addressable LED strips
+technical setup: Kinect2 > vvvv > Arduino > addressable LED strips
+
+contact art {at} vulkai {dot} com
+
+website www.vulkai.com
 
 *repository will be updated as the project develops
