@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="C:\Users\d\Desktop\vvvv_sivinjski\AwakeningCircle\subpatches\AwakeningArduino.v4p" systemname="AwakeningArduino" filename="C:\Users\sivinjski\Desktop\vvvv_sivinjski\AwakeningCircle\subpatches\AwakeningArduino.v4p" scrollx="0" scrolly="-360">
-   <BOUNDS type="Window" left="10800" top="0" width="10800" height="13350">
+   <PATCH nodename="C:\Users\d\Desktop\vvvv_sivinjski\AwakeningCircle\subpatches\AwakeningArduino.v4p" systemname="AwakeningArduino" filename="C:\Users\sivinjski\Desktop\vvvv_sivinjski\AwakeningCircle\subpatches\AwakeningArduino.v4p" scrollx="0" scrolly="2160">
+   <BOUNDS type="Window" left="-120" top="-120" width="21660" height="13560">
    </BOUNDS>
    <PACK Name="addonpack" Version="33.7.0">
    </PACK>
