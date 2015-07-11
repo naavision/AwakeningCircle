@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
    <PATCH nodename="C:\Users\d\Desktop\vvvv_sivinjski\AwakeningCircle\AwakeningCircle.v4p" scrollx="0" scrolly="-360" locked="0">
-   <BOUNDS type="Window" left="-120" top="-120" width="21660" height="13560">
+   <BOUNDS type="Window" left="-60" top="0" width="21660" height="13560">
    </BOUNDS>
    <INFO author="" description="" tags="">
    </INFO>
@@ -9,7 +9,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="57900" top="1740" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="-120" top="-120" width="21660" height="13560">
+   <BOUNDS type="Window" left="-60" top="0" width="21660" height="13560">
    </BOUNDS>
    <PIN pinname="Enabled" slicecount="1" visible="1" values="1">
    </PIN>
@@ -501,7 +501,7 @@
    </PIN>
    <PIN pinname="Reset" visible="1">
    </PIN>
-   <BOUNDS type="Window" left="-120" top="-120" width="21660" height="13560">
+   <BOUNDS type="Window" left="-60" top="0" width="21660" height="13560">
    </BOUNDS>
    <PIN pinname="Enable" visible="1">
    </PIN>
@@ -2655,9 +2655,9 @@
    <NODE id="367" systemname="Timeliner (Animation)" filename="%VVVV%\contributions\plugins\TimelinerSA_beta10.1\Timeliner.dll" nodename="Timeliner (Animation)" componentmode="InAWindow">
    <PIN pinname="Pin Settings" slicecount="1" values="|&lt;PIN Name=&quot;Ruler0&quot; Type=&quot;Ruler&quot; SliceCount=&quot;0&quot; Height=&quot;20&quot; Parent=&quot;0&quot; /&gt;|">
    </PIN>
-   <BOUNDS type="Node" left="270" top="4515" width="100" height="100">
+   <BOUNDS type="Node" left="270" top="4650" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="270" top="4515" width="6000" height="3000">
+   <BOUNDS type="Box" left="270" top="4650" width="6000" height="3000">
    </BOUNDS>
    <BOUNDS type="Window" left="12360" top="4305" width="9240" height="5085">
    </BOUNDS>
@@ -2667,11 +2667,47 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="368" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="180" top="3885" width="4395" height="270">
+   <BOUNDS type="Node" left="180" top="4020" width="4395" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="180" top="3885" width="49350" height="315">
+   <BOUNDS type="Box" left="180" top="4020" width="49350" height="315">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|TIMELINE OF LIGHT CHANGES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="Verdana">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="369" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="9765" top="390" width="4395" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="9765" top="390" width="7410" height="315">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|HARDWARE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="10">
+   </PIN>
+   <PIN pinname="Font" slicecount="1" values="Verdana">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="370" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="9780" top="720" width="4395" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="9780" top="720" width="7260" height="2280">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|- 6 x APA102 LED strips 60pixel/meter&cr;&lf;serially connected in an array of 360 pixels in total&cr;&lf;&cr;&lf;- Arduino MEGA 2560&cr;&lf;&cr;&lf;- Kinect 2|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
