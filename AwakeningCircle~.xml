@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="C:\Users\d\Desktop\vvvv_sivinjski\AwakeningCircle\AwakeningCircle.v4p" scrollx="0" scrolly="40815" locked="0">
+   <PATCH nodename="C:\Users\d\Desktop\vvvv_sivinjski\AwakeningCircle\AwakeningCircle.v4p" scrollx="0" scrolly="39405" locked="0">
    <BOUNDS type="Window" left="-120" top="-120" width="21780" height="13680">
    </BOUNDS>
    <INFO author="" description="" tags="">
@@ -3483,7 +3483,7 @@
    <NODE id="382" systemname="RS232 (Devices)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="RS232 (Devices)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <PIN pinname="Enabled" visible="1" slicecount="1" pintype="Input" values="0">
    </PIN>
-   <BOUNDS type="Node" left="18030" top="45705" width="6060" height="270">
+   <BOUNDS type="Node" left="13410" top="46035" width="6060" height="270">
    </BOUNDS>
    <PIN pinname="Port Name" visible="1" pintype="Input">
    </PIN>
@@ -3495,7 +3495,7 @@
    </PIN>
    <PIN pinname="Connected" visible="1" pintype="Output">
    </PIN>
-   <BOUNDS type="Box" left="16365" top="0" width="2400" height="1800">
+   <BOUNDS type="Box" left="11745" top="330" width="2400" height="1800">
    </BOUNDS>
    <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
    </BOUNDS>
@@ -3535,7 +3535,7 @@
    </PIN>
    </NODE>
    <NODE id="379" systemname="FirmataDecode (Devices 2.x)" filename="%VVVV%\addonpack\lib\nodes\plugins\Virmata.dll" nodename="FirmataDecode (Devices 2.x)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Node" left="18015" top="46815" width="6120" height="270">
+   <BOUNDS type="Node" left="13395" top="47145" width="6120" height="270">
    </BOUNDS>
    <PIN pinname="Firmata Message" visible="1" pintype="Input">
    </PIN>
@@ -3549,7 +3549,7 @@
    </PIN>
    <PIN pinname="Digital Input Count" slicecount="1" pintype="Input" visible="-1" values="54">
    </PIN>
-   <BOUNDS type="Box" left="16365" top="0" width="2400" height="1800">
+   <BOUNDS type="Box" left="11745" top="330" width="2400" height="1800">
    </BOUNDS>
    <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
    </BOUNDS>
@@ -3573,9 +3573,9 @@
    </PIN>
    </NODE>
    <NODE id="377" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Box" left="18000" top="47760" width="795" height="240">
+   <BOUNDS type="Box" left="13380" top="48090" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="18000" top="47760" width="0" height="0">
+   <BOUNDS type="Node" left="13380" top="48090" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Units" slicecount="1" pintype="Configuration" values="||">
    </PIN>
@@ -3649,9 +3649,9 @@
    </PIN>
    </NODE>
    <NODE id="376" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Box" left="19020" top="47760" width="795" height="240">
+   <BOUNDS type="Box" left="14400" top="48090" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="19020" top="47760" width="0" height="0">
+   <BOUNDS type="Node" left="14400" top="48090" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Units" slicecount="1" pintype="Configuration" values="||">
    </PIN>
@@ -3725,9 +3725,9 @@
    </PIN>
    </NODE>
    <NODE id="375" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Node" left="20220" top="43320" width="0" height="0">
+   <BOUNDS type="Node" left="15600" top="43650" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="20220" top="43320" width="480" height="480">
+   <BOUNDS type="Box" left="15600" top="43650" width="480" height="480">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" pintype="Input" values="1">
    </PIN>
@@ -3801,9 +3801,9 @@
    </PIN>
    </NODE>
    <NODE id="372" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Box" left="24405" top="46170" width="480" height="480">
+   <BOUNDS type="Box" left="19785" top="46500" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="24405" top="46170" width="0" height="0">
+   <BOUNDS type="Node" left="19785" top="46500" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Units" slicecount="1" pintype="Configuration" values="||">
    </PIN>
@@ -3881,7 +3881,7 @@
    </PIN>
    <PIN pinname="Reset" visible="1" slicecount="1" pintype="Input" values="0">
    </PIN>
-   <BOUNDS type="Node" left="18075" top="44340" width="4815" height="270">
+   <BOUNDS type="Node" left="13455" top="44670" width="4815" height="270">
    </BOUNDS>
    <PIN pinname="Firmata Message" visible="1" pintype="Output">
    </PIN>
@@ -3899,7 +3899,7 @@
    </PIN>
    <PIN pinname="I2C" visible="1" slicecount="1" pintype="Input" values="||">
    </PIN>
-   <BOUNDS type="Box" left="16410" top="0" width="2400" height="1800">
+   <BOUNDS type="Box" left="11790" top="330" width="2400" height="1800">
    </BOUNDS>
    <BOUNDS type="Window" left="0" top="0" width="6000" height="4500">
    </BOUNDS>
@@ -3919,9 +3919,9 @@
    </PIN>
    </NODE>
    <NODE id="374" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Node" left="21870" top="43320" width="0" height="0">
+   <BOUNDS type="Node" left="17250" top="43650" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="21870" top="43320" width="480" height="480">
+   <BOUNDS type="Box" left="17250" top="43650" width="480" height="480">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" pintype="Input" values="1">
    </PIN>
@@ -3995,9 +3995,9 @@
    </PIN>
    </NODE>
    <NODE id="381" nodename="IOBox (Enumerations)" componentmode="InABox" systemname="IOBox (Enumerations)" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Box" left="23520" top="45000" width="1590" height="270">
+   <BOUNDS type="Box" left="18900" top="45330" width="1590" height="270">
    </BOUNDS>
-   <BOUNDS type="Node" left="23520" top="45000" width="0" height="0">
+   <BOUNDS type="Node" left="18900" top="45330" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input Enum" slicecount="1" visible="1" pintype="Input" values="||">
    </PIN>
@@ -4059,9 +4059,9 @@
    <LINK srcnodeid="233" srcpinname="Y Output Value" dstnodeid="541" dstpinname="Reset" hiddenwhenlocked="1">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="548" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="16470" top="45630" width="675" height="270">
+   <BOUNDS type="Node" left="11850" top="45960" width="675" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="16470" top="45630" width="1125" height="525">
+   <BOUNDS type="Box" left="11850" top="45960" width="1125" height="525">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&cr;&lf;ALTERNATIVE?&cr;&lf;|">
    </PIN>
