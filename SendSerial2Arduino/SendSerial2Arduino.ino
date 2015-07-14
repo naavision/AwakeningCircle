@@ -18,10 +18,10 @@ if (Serial.available() > 0)
 
  analogWrite(9,CleanBuffer[0]); 
  analogWrite(10,CleanBuffer[1]); 
- // analogWrite(11,CleanBuffer[2]); 
- // digitalWrite(12,CleanBuffer[3]);
+ analogWrite(11,CleanBuffer[2]); 
+ digitalWrite(12,CleanBuffer[3]);
  }
   
 }
-delay(5);
+delay(1);
 }
