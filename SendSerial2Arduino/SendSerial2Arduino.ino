@@ -20,7 +20,7 @@ void loop() {
   
 if (Serial.available() > 0) 
 {
- Serial.readBytes(packetBuffer,8); // 6 is the packetsize
+ Serial.readBytes(packetBuffer,6); // 6 is the packetsize
  if( packetBuffer[0]=='<' && packetBuffer[6-1]== '>')
   {
   unsigned char CleanBuffer [6-2];
