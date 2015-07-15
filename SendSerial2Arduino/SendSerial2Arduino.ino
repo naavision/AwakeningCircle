@@ -13,6 +13,7 @@ void setup()
 {
   pinMode(dataPin, OUTPUT);
   pinMode(clockPin, OUTPUT);
+  // pinMode(12, OUTPUT);  // sets the digital pin 12 as output
   Serial.begin(9600);
 }
 
@@ -21,7 +22,7 @@ void loop() {
 if (Serial.available() > 0) 
 {
  Serial.readBytes(packetBuffer,6); // 6 is the packetsize
- if( packetBuffer[0]=='<' && packetBuffer[6-1]== '>')
+ if( packetBuffer[0]=='<' && packetBuffer[6-1]=='>')
   {
   unsigned char CleanBuffer [6-2];
   memcpy(CleanBuffer,packetBuffer+1,6-2);
@@ -29,7 +30,11 @@ if (Serial.available() > 0)
    
   analogWrite(dataPin,CleanBuffer[0]); 
   analogWrite(clockPin,CleanBuffer[1]); 
+  // analogWrite(9,CleanBuffer[0]); 
+  // analogWrite(10,CleanBuffer[1]); 
+  // analogWrite(11,CleanBuffer[2]); 
+  // digitalWrite(12,CleanBuffer[3]); 
   }
 }
-delay(4); // wait 4 milliseconds before the next loop
+delay(5); // wait 5 milliseconds before the next loop
 }
