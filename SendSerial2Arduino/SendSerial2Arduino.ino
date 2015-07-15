@@ -1,7 +1,7 @@
 #include <FastLED.h>
 #define NUM_LEDS 360
 #define DATA_PIN 9
-#define CLOCK_PIN 1
+#define CLOCK_PIN 10
 CRGB leds[NUM_LEDS]; //Array for RGB LEDs
 int LEDValues[NUM_LEDS][3]; //Two dimensional array (360,3) to store RGB values for every LED
 char packetBuffer[1080]; //Buffer to store incoming string from vvvv
