@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="C:\Users\d\Desktop\vvvv_sivinjski\AwakeningCircle\AwakeningCircle.v4p" scrollx="17580" scrolly="61800" locked="0">
-   <BOUNDS type="Window" left="0" top="0" width="16515" height="13050">
+   <PATCH nodename="C:\Users\d\Desktop\vvvv_sivinjski\AwakeningCircle\AwakeningCircle.v4p" scrollx="0" scrolly="58185" locked="0">
+   <BOUNDS type="Window" left="-120" top="-120" width="21660" height="13560">
    </BOUNDS>
    <INFO author="" description="" tags="">
    </INFO>
