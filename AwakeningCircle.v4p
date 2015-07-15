@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="C:\Users\d\Desktop\vvvv_sivinjski\AwakeningCircle\AwakeningCircle.v4p" scrollx="16020" scrolly="59775" locked="0">
+   <PATCH nodename="C:\Users\d\Desktop\vvvv_sivinjski\AwakeningCircle\AwakeningCircle.v4p" scrollx="16080" scrolly="60750" locked="0">
    <BOUNDS type="Window" left="-120" top="-120" width="21660" height="13560">
    </BOUNDS>
    <INFO author="" description="" tags="">
@@ -4775,7 +4775,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="32430" top="50400" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -4785,7 +4785,7 @@
    </PIN>
    <PIN pinname="Behavior" slicecount="1" values="Toggle">
    </PIN>
-   <PIN pinname="X Input Value" slicecount="1" values="1">
+   <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="Pause">
    </PIN>
