@@ -1,18 +1,35 @@
-// Understanding values from vvvv and sending them to an array of 360 APA102 LEDs
-// 6 strips x 60 pixels
-// Arduino Mega 2560, DATA Pin A9 (analog), CLOCK Pin A10 (analog)
+// Awakening Circle ~ Interactive Visionary Installation
+// vulkai studio
+// https://github.com/sivinjski/AwakeningCircle
+
+// This Arduino code should understand packets of values from vvvv serial port and send them
+// via Arduino Mega 2560 board, DATA Pin A9 (analog), CLOCK Pin A10 (analog)
+// to an array of 360 [APA102] LEDs, 6 strips x 60 pixels.
+
+// In this second version (SendSerial2Arduno_v2) there could be some mess between
+// FastLED.h and Adafrit_DotStar.h libraries: such as NUM_LEDS vs. NUMPIXELS, etc. etc.
 
 #include <FastLED.h>
+#include <SPI.h>
+#include <Adafruit_DotStar.h> // Library for APA102, labeled by Adafruit as DotStar 
+                              // https://github.com/adafruit/Adafruit_DotStar
+
 #define NUM_LEDS 360
-#define DATA_PIN 9    // A9
-#define CLOCK_PIN 10  // A10
+//FastLED// #define DATA_PIN A9
+//FastLED// #define CLOCK_PIN A10
+
+#define NUMPIXELS 360
+#define DATAPIN  A9
+#define CLOCKPIN A10
+  
 CRGB leds[NUM_LEDS]; // Array for RGB LEDs
 int LEDValues[NUM_LEDS][3]; // 2D array (360,3) to store RGB values for every LED
 char packetBuffer[1080]; // Buffer to store incoming string from vvvv
 
-void setup()   
+void setup()
 {
-  FastLED.addLeds<APA102, DATA_PIN, CLOCK_PIN>(leds, NUM_LEDS); // initiate RGB LED strip
+  Adafruit_DotStar strip = Adafruit_DotStar(NUM_LEDS, DATAPIN, CLOCKPIN, DOTSTAR_BRG);
+  //// FastLED.addLeds<DOTSTAR, DATA_PIN, CLOCK_PIN>(leds, NUM_LEDS); // initiate RGB LED strip
   Serial.begin(9600); // start Serial Communication
 }
 void loop() {
@@ -45,3 +62,4 @@ void loop() {
   FastLED.show(); // updated RGB LED strip
   delay(5);
 }
+
