@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
-   <PATCH nodename="C:\Users\d\Desktop\vvvv_sivinjski\AwakeningCircle\AwakeningCircle.v4p" scrollx="6435" scrolly="50160" locked="0">
+   <PATCH nodename="C:\Users\d\Desktop\vvvv_sivinjski\AwakeningCircle\AwakeningCircle.v4p" scrollx="6690" scrolly="48690" locked="0">
    <BOUNDS type="Window" left="0" top="0" width="15435" height="13050">
    </BOUNDS>
    <INFO author="" description="" tags="">
@@ -4574,4 +4574,18 @@
    </LINK>
    <LINK srcnodeid="1305" srcpinname="Color Output" dstnodeid="753" dstpinname="Input">
    </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="1324" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="8760" top="53595" width="540" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="8760" top="53595" width="750" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|to fix &gt;&gt;|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
    </PATCH>
