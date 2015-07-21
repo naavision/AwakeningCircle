@@ -40,21 +40,21 @@ Artnet artnet; //?/?// Is this line of code allright?
 const int startUniverse = 0; // for most software this is 1, some send out artnet first universe as 0.
 
 // Check if we got all universes
-const int maxUniverses = numberOfChannels / 512; ////////////// + ((numberOfChannels % 512) ? 1 : 0);
+const int maxUniverses = numberOfChannels / 180 + ((numberOfChannels % 180) ? 1 : 0); ////////////// / 512 + ((numberOfChannels % 512) ? 1 : 0);
 bool universesReceived[maxUniverses];
 bool sendFrame = 1;
 int previousDataLength = 0;
 
 // IP and MAC addresses
-byte ip[] = {169, 254, 127, 48 };
+byte ip[] = {169, 254, 99, 180};
 byte mac[] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED}; 
 
 void setup()
 {
-  // delay(2000); // ************* testing without delay
+  // delay(2000);
   // Serial.begin(115200);
   artnet.begin(mac, ip);
-  FastLED.addLeds<APA102, DATA_PIN, CLOCK_PIN>(leds, NUM_LEDS).setCorrection( TypicalLEDStrip );
+  FastLED.addLeds<APA102, DATA_PIN, CLOCK_PIN>(leds, NUM_LEDS);
   // initTest();
 
   // this will be called for each packet received
