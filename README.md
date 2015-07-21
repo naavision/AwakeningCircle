@@ -6,7 +6,7 @@ The installation is reflecting our inner connections with the universe — onene
 
 #### hardware
 * APA102 addressable LED strips
-* Arduino Mega 2560
+* Arduino Mega 2560 + Ethernet Shield
 * Kinect2
 
 #### software
