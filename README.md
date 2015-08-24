@@ -1,8 +1,8 @@
 ﻿# Awakening Circle
 
-**Interactive Visionary Installation by [vulkai studio](http://www.vulkai.com)**
+**Interactive Visionary Installation, [vulkai studio](http://www.vulkai.com), 2015**
 
-**Danijel Sivinjski in collaboration with [Ritschard Paul](https://github.com/ritschard) & Roy Datom**
+**Concept by Zita Gyore & [Danijel Sivinjski](http://www.sivinjski.com) / Light Design and Interactivity: Danijel Sivinjski, [Ritschard Paul](https://github.com/ritschard) & Roy Datom / Sculptures: Zita Gyore, Agnes Gyore, Mitar Sivinjski & Dejan Sivinjski / Paintings: Zita Gyore**
 
 The installation reflects our inner connections with the universe — oneness. The inspiration came from the experience of spiritual awakening. The creative outcome of that are 6 real-sized human sculptures (semi-transparent bodies) gathered in a circle. Fluroscent Paintings on the outside off the sculptures and The LED strips from inside highlight and visually express the awakening of each chakra. Tracked by the Kinect, seventh position in the circle is open for the audience to join the awakening.
 
