@@ -9,10 +9,11 @@ Code by:
 Ritschard Paul     https://github.com/ritschard
 Danijel Sivinjski  https://github.com/sivinjski
 
------------------------------------------------------
+Library:
+FastLED https://github.com/FastLED/FastLED
 
 Setup:
-- vvvv (Kinect2 part + triggers are sent to this Arduino Code via RS232 node)
+- vvvv (Kinect2 triggers are sent to this Arduino Code via serial port)
 - Arduino Mega 2560 (DATA and CLOCK pin defined below)
 - Array of 360 [APA102] LEDs (6 strips x 60 pixels)
 */
@@ -22,15 +23,15 @@ Setup:
 #define LED_TYPE      APA102
 #define DATA_PIN      51
 #define CLOCK_PIN     53
-#define BRIGHTNESS    31
+#define BRIGHTNESS    10
 #define COLOR_ORDER   BGR
-#define MAX_INT_VALUE 65536
+//#define MAX_INT_VALUE 65536
 #define NUM_LEDS      360
 CRGB leds[NUM_LEDS];
 
 uint16_t frame        = 0;
-uint16_t animateSpeed = 10;
-uint8_t  brightness   = 20;
+uint16_t animateSpeed = 16;
+uint8_t  brightness   = 10;
 uint16_t fadeAmount   = 9;
 uint8_t  animation    = 0;
 
@@ -122,16 +123,16 @@ CRGB getColor(int chakra){
 //// 5  =  Eye    =  Indigo
 //// 6  =  Crown  =  Violet
 
-int head  = 0, tail = -4;
+int head = 0, tail = -4;
 int rndval = 0;
 
 void setup() { 
   Serial.begin(9600);
-  FastLED.addLeds<LED_TYPE, DATA_PIN, CLOCK_PIN, COLOR_ORDER, DATA_RATE_MHZ(12)>(leds, NUM_LEDS)
+  set_max_power_in_volts_and_milliamps(5, 500);
+  FastLED.addLeds<LED_TYPE, DATA_PIN, CLOCK_PIN, COLOR_ORDER, DATA_RATE_KHZ(800)>(leds, NUM_LEDS)
          .setCorrection(TypicalLEDStrip);
   FastLED.setBrightness(BRIGHTNESS);
   FastLED.clear();
-  set_max_power_in_milliwatts(275000);
 }
 
 int prevColor = -1;
@@ -314,6 +315,7 @@ void ChakraRandom(CRGB leds[], int chakra) {
     leds[i+chakra+chakraLedStripOffsets[offset]] = CRGB(chakraColor);;
     FastLED.show();
   }
+  show_at_max_brightness_for_power();
   delay(1000);  
 }
 
