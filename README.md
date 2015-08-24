@@ -1,8 +1,6 @@
 ﻿# Awakening Circle
 
-**Interactive Visionary Installation by [vulkai studio](http://www.vulkai.com)**
-
-**In collaboration with [Ritschard Paul](https://github.com/ritschard) & Roy Datom**
+**Interactive Visionary Installation by [vulkai studio](http://www.vulkai.com), Danijel Sivinjski in collaboration with [Ritschard Paul](https://github.com/ritschard) & Roy Datom**
 
 The installation reflects our inner connections with the universe — oneness. The inspiration came from the experience of spiritual awakening. The creative outcome of that are 6 real-sized human sculptures (semi-transparent bodies) gathered in a circle. Fluroscent Paintings on the outside off the sculptures and The LED strips from inside highlight and visually express the awakening of each chakra. Tracked by the Kinect, seventh position in the circle is open for the audience to join the awakening.
 
